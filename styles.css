@@ -14,24 +14,6 @@ body{
 
     background-color: white;
 }
-
-
-    /*media query breakpoint */
-
-    @media only screen and (max-width: 800px)
-    {
-        #student-information
-        {
-            margin:0px;
-    
-            margin:50px;
-        
-            border:3px solid black;
-            border-radius : 20px;
-        }
-    }
-    
-
 /* FIRST-BLOCK */
 
 .first-block
@@ -57,7 +39,17 @@ body{
     /* media query breakpoint */
 
     @media only screen and (max-width: 600px)
-    {        
+    {    
+        
+        #student-information
+        {
+            margin:0px;
+    
+            margin:50px;
+        
+            border:3px solid black;
+            border-radius : 20px;
+        }     
             
         .first-block
         {
