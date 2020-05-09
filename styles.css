@@ -131,7 +131,11 @@ input
             margin-top:50px;
             margin-bottom:50px;
         }
-
+        
+        .second-block input
+        {
+            margin:23px;
+        }
         .second-block
         {
             text-align:center;
