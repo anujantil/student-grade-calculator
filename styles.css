@@ -18,7 +18,7 @@ body{
 
     /*media query breakpoint */
 
-    @media (max-width:500px)
+    @media (max-width:800px)
     {
         #student-information
         {
@@ -56,12 +56,12 @@ body{
 
     /* media query breakpoint */
 
-    @media (max-width:450px)
+    @media (max-width:800px)
     {        
             
         .first-block
         {
-            margin-top:5px;
+            margin-top:10px;
             margin-bottom:20px;
             
             text-align:left;
