@@ -47,7 +47,7 @@ var d=0;
 var totalmarks;
 var precentage;
 
-if($(".programming-marks").val()<40 && $(".programming-marks").val()>=0)
+if($(".programming-marks").val()<40 && $(".programming-marks").val()>=0 || $(".programming-marks").val()=="")
 {
      $(".p4").text("FAILED in programming.");
      a+= +$(".programming-marks").val();
@@ -59,7 +59,7 @@ else
     a+= +$(".programming-marks").val();
 }
 
-if($(".maths-marks").val()<40 && $(".maths-marks").val()>=0)
+if($(".maths-marks").val()<40 && $(".maths-marks").val()>=0 || $(".maths-marks").val()=="")
 {
     $(".p5").text("FAILED in mathematics.");
     b+= +$(".maths-marks").val();
@@ -70,7 +70,7 @@ else
     b+= +$(".maths-marks").val();
 }
 
-if($("computer-marks").val()<40 && $(".computer-marks").val()>=0)
+if($("computer-marks").val()<40 && $(".computer-marks").val()>=0 || $(".computer-marks").val()=="")
 {
     $(".p6").text("FAILED in computer.");
     c+= +$(".computer-marks").val();
@@ -81,7 +81,7 @@ else
     c+= +$(".computer-marks").val();
 }
 
-if($(".physics-marks").val()<40 && $(".maths-marks").val()>=0)
+if($(".physics-marks").val()<40 && $(".maths-marks").val()>=0 || $(".physics-marks").val()=="")
 {
     $(".p7").text("FAILED in physics");
     d+= +$(".physics-marks").val();
