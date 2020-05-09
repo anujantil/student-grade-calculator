@@ -19,6 +19,8 @@ body{
 .first-block
 {
     margin-top:220px;
+    
+ 
     text-align:left;
 
     margin-left:150px;
@@ -90,7 +92,7 @@ input
 
  /* media query breakpoint */
 
-    @media only screen and (max-width : 1200px)
+    @media only screen and (max-width : 1300px)
     {    
         
         #student-information
@@ -108,15 +110,26 @@ input
             margin-top:10px;
             margin-bottom:20px;
             
+            
+            
             text-align:left;
             
+            margin-right:70px;
+            margin-left:150px;
+            
         
-            padding-left:20px;
+ 
         
-            border:5px solid greenyellow;
+            border-left:5px solid greenyellow;
         
             color:green;           
             
+        }
+        
+        .secod-block h1
+        {
+            margin-top:50px;
+            margin-bottom:50px;
         }
 
         .second-block
